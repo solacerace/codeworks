@@ -8,7 +8,7 @@
 using namespace std;
 int main()
 {
-   cout << "I am Main" << endl;
+   cout << "I am Main - Mod In Windows" << endl;
    A a;
    B b;
 
