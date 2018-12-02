@@ -12,6 +12,7 @@ int main()
    A a;
    B b;
 
+   // Windowschanges
     std::string line = "Subject: Re: Where are you going";
     boost::regex pat( "^Subject: Re:.*" );
 
