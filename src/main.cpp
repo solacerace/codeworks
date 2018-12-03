@@ -11,6 +11,8 @@ int main()
    cout << "I am Main - Mod In Windows new " << endl;
    A a;
    B b;
+   auto testFun = [](){cout << "HelloGod"<< endl; };
+   testFun();
 
    // Windowschanges
     std::string line = "Subject: Re: Where are you going";

@@ -1,5 +1,5 @@
 CXX      := g++
-CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
+CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror -std=c++11
 LDFLAGS  := -L/usr/lib -lstdc++ -lm -L/usr/lib64 -lboost_regex-mt
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/obj
